@@ -1,0 +1,6 @@
+Install usefull stuff : npm install --save-dev @babel/core @babel/node @babel/preset-env @babel/preset-react nodemon
+@babel/preset-env -> convert new js syntax to old js syntax 
+@babel/preset-react -> transpile the jsx intio js 
+
+Build : npm run build 
+Run app: npx babel-node server.js
