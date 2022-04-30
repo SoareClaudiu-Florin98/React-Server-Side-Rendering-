@@ -1,11 +1,11 @@
 import React  from "react";
-import {BrowserRouter, Route, Routes, Link} from "react-router-dom"
+import { Route, Routes, Link} from "react-router-dom"
 import {Home} from './pages/Home';
 import {About} from './pages/About';
 import {Articles} from './pages/Articles';
 const App = () =>{
   return(
-    <BrowserRouter>
+    <>
     <h1>Server-Side Rendering Exemple</h1>
     <ul>
       <li>
@@ -26,7 +26,7 @@ const App = () =>{
       <Route path= "/articles" element = {<Articles />}>
       </Route>
     </Routes>
-    </BrowserRouter>
+    </>
   );
 }
 
